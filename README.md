@@ -26,6 +26,7 @@ This is the Holmusk Quality Assurance Engineer challenge. The rules of the chall
 You will need to create a test suite that tests the registration process of an app and generates a report at the end of the test. The test should be able to automatically register a new account and sign in the app and detects problems if any.
 
 ### Bits and Pieces to take note of
+* You will test the apk file named "glyco_test.apk" found in this repository.
 * You should create your own test specifications based on your experience with the registration flow in mobile app
 * The test script should launch the emulator, deploy apk file and run the app, followed by new account registration with test credentials. The username must begin with "testchallenge".
 * The script should be able to cover these paths:
@@ -33,7 +34,6 @@ You will need to create a test suite that tests the registration process of an a
 * Failure cases: any case that leads to unsuccessful registration and sign in of a new account (the more the better).
 * Other cases: cases that may lead to a suggestion in improvements of the app
 * The test script should be able to be executed from local machine and generates a report at the end of the test.
-* With that said we wish you good luck and look forward to receiving your submission!
 
 ## Judging Criteria
 * What you have produced will determine your final outcome
@@ -41,7 +41,9 @@ You will need to create a test suite that tests the registration process of an a
 * Because we love people who have a passion for expanding their horizons, your background with test frameworks do not matter so much provided you are able to demonstrate your learning ability!
 
 ## Bonus
-*Performance test, load test
-*Usage of continuous integration frameworks: test script is triggered by a commit on the code or change in the APK file
-*Run the test on multiple devices and OS versions automatically
-*Use the same code with minor modifications to test iOS app
+* Usage of performance test, load test, traffic test...
+* Usage of continuous integration frameworks: test script is triggered by a commit on the code or change in the APK file
+* Testing on multiple devices and OS versions
+* Usage the same code with minor modifications to test iOS app (Search "Glyco" on App Store)
+
+** With that said we wish you good luck and look forward to receiving your submission!
