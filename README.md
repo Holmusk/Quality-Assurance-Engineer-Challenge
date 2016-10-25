@@ -23,7 +23,7 @@ This is the Holmusk Quality Assurance Engineer challenge. The rules of the chall
 
 ### What You'll need to build
 
-You will need to create a test suite that tests the registration process of an app and generates a report at the end of the test. The test should be able to automatically register a new account and sign in the app and detects problems if any.
+You will need to create a test script that tests the registration process of an app and generates a report at the end of the test. The test should be able to automatically register a new account and sign in the app and detects problems if any.
 
 ### Bits and Pieces to take note of
 * You will test the apk file named "glyco_test.apk" found in this repository.
