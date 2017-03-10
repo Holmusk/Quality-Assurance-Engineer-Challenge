@@ -3,7 +3,7 @@
 `version 1.0`
 `challenge status: open`
 
-Welcome! We've been expecting you. Holmusk is a big data based high tech company specializing in healthcare in Singapore.
+Welcome! We've been expecting you. Holmusk is a big data based high tech company with the vision to use data science to revolutionize healthcare worldwide.
 
 If you're someone who bleeds code and aches to make a difference in the world, then you are at the right place. You will be part of a world‑class team working on the most exciting ground‑breaking technology in an inspiring and collaborative environment.
 
@@ -12,11 +12,9 @@ If you're someone who bleeds code and aches to make a difference in the world, t
 
 This is the Holmusk Quality Assurance Engineer challenge. The rules of the challenge are very simple and are as follows
 
-* You will be able to submit the challenge anytime you are ready provided the challenge is still open
 * Your code should be commented
 * Because we, at Holmusk, take code organization seriously, please do ensure your source files are organized when you submit
-* You are required to fork this repo and submit a pull request
-* If you wish to not make public, your submission, please complete the code in your local repository and email a patch file to careers@holmusk.com
+* Please complete the challenge and email your solution in a zip file to careers@holmusk.com along with instructions on how to execute your program.
 * Please note that you will also be judged on the elegance of your code, level of abstraction and technical skills presented in the implementation. For more details, refer to the Judging Criteria section below.
 
 ## The Challenge 
@@ -27,14 +25,13 @@ You will need to create a test script that tests the registration process of an 
 
 ### Bits and Pieces to take note of
 * You will test the apk file named "glyco_test.apk" found here: https://drive.google.com/open?id=0B8nRvykbx1PfUUEwOExGOVNqWDA
-
+* You should use Selenium/Appium based platforms to write your tests.
 * You should create your own test specifications based on your experience with the registration flow in mobile app
-* The test script should launch the emulator, deploy apk file and run the app, followed by new account registration with test credentials. The username must begin with "testchallenge".
+* The test script should launch the emulator, deploy apk file and run the app, followed by new account registration with test credentials. The username must begin with "testQA"+{your_name}.
 * The script should be able to cover these paths:
 * Success cases: register a new account successfully and verify that user has actually signed in with registered information.
 * Failure cases: any case that leads to unsuccessful registration and sign in of a new account (the more the better).
 * Other cases: cases that may lead to a suggestion in improvements of the app
-* The test script should be able to be executed from local machine and generates a report at the end of the test.
 
 ## Judging Criteria
 * What you have produced will determine your final outcome
