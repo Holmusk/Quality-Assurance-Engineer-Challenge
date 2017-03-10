@@ -26,7 +26,8 @@ This is the Holmusk Quality Assurance Engineer challenge. The rules of the chall
 You will need to create a test script that tests the registration process of an app and generates a report at the end of the test. The test should be able to automatically register a new account and sign in the app and detects problems if any.
 
 ### Bits and Pieces to take note of
-* You will test the apk file named "glyco_test.apk" found in this repository.
+* You will test the apk file named "glyco_test.apk" found here: https://drive.google.com/open?id=0B8nRvykbx1PfUUEwOExGOVNqWDA
+
 * You should create your own test specifications based on your experience with the registration flow in mobile app
 * The test script should launch the emulator, deploy apk file and run the app, followed by new account registration with test credentials. The username must begin with "testchallenge".
 * The script should be able to cover these paths:
